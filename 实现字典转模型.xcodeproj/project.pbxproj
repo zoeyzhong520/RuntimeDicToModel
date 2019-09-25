@@ -15,6 +15,8 @@
 		36BB5579233B165000FB0E1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BB5578233B165000FB0E1F /* main.m */; };
 		36BB5583233B165000FB0E1F /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BB5582233B165000FB0E1F /* _______Tests.m */; };
 		36BB558E233B165000FB0E1F /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BB558D233B165000FB0E1F /* _______UITests.m */; };
+		36BB559D233B178E00FB0E1F /* NSObject+DataConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BB559C233B178E00FB0E1F /* NSObject+DataConversion.m */; };
+		36BB55A0233B19A800FB0E1F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BB559F233B19A800FB0E1F /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		36BB5589233B165000FB0E1F /* 实现字典转模型UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "实现字典转模型UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36BB558D233B165000FB0E1F /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
 		36BB558F233B165000FB0E1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36BB559B233B178E00FB0E1F /* NSObject+DataConversion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+DataConversion.h"; sourceTree = "<group>"; };
+		36BB559C233B178E00FB0E1F /* NSObject+DataConversion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DataConversion.m"; sourceTree = "<group>"; };
+		36BB559E233B19A800FB0E1F /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		36BB559F233B19A800FB0E1F /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				36BB5574233B165000FB0E1F /* LaunchScreen.storyboard */,
 				36BB5577233B165000FB0E1F /* Info.plist */,
 				36BB5578233B165000FB0E1F /* main.m */,
+				36BB559B233B178E00FB0E1F /* NSObject+DataConversion.h */,
+				36BB559C233B178E00FB0E1F /* NSObject+DataConversion.m */,
+				36BB559E233B19A800FB0E1F /* Person.h */,
+				36BB559F233B19A800FB0E1F /* Person.m */,
 			);
 			path = "实现字典转模型";
 			sourceTree = "<group>";
@@ -264,7 +274,9 @@
 			files = (
 				36BB556E233B164E00FB0E1F /* ViewController.m in Sources */,
 				36BB5579233B165000FB0E1F /* main.m in Sources */,
+				36BB55A0233B19A800FB0E1F /* Person.m in Sources */,
 				36BB556B233B164E00FB0E1F /* AppDelegate.m in Sources */,
+				36BB559D233B178E00FB0E1F /* NSObject+DataConversion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

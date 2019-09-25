@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "NSObject+DataConversion.h"
+#import "Person.h"
 
 @interface ViewController ()
 
@@ -17,6 +19,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    NSDictionary *dict = @{
+                           @"name":@"Steven",
+                           @"age":@10,
+                           @"sex":@"男"
+                           };
+    Person *person = [[Person alloc] initWithDict:dict];
+    NSLog(@"name=%@\nage=%@\nsex=%@",person.name,person.age,person.sex
+          );
 }
 
 
